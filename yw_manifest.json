@@ -1,0 +1,21 @@
+{
+  "project_type": "react",
+  "ai_config": {
+    "nano_banana_generator": {
+      "model": "nano-banana",
+      "quality": "high",
+      "response_format": "b64_json",
+      "prompt_template": "Create an image with Nano Banana model. Description: ${description}. Style: ${style}. Aspect ratio: ${aspectRatio}. Target resolution: ${resolution}. Focus on premium lighting, refined materials, and modern composition."
+    },
+    "super_resolution_upscaler": {
+      "model": "nano-banana",
+      "response_format": "b64_json",
+      "prompt_template": "Enhance image details from ${originalResolution} to ${targetResolution}. Preserve textures, eliminate artifacts, and maintain balanced contrast."
+    },
+    "nano_banana_transformer": {
+      "model": "nano-banana",
+      "response_format": "b64_json",
+      "prompt_template": "Transform the uploaded scene using Nano Banana. Base direction: ${description}. Preserve original style family: ${originalStyle}. Maintain proportional balance across ${originalResolution}. Blend edits seamlessly with realistic lighting."
+    }
+  }
+}
